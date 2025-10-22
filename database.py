@@ -6,3 +6,6 @@ def add_user(username, password):
     
 def search_market(item):
     print(f"Searching for item now (tidak konflik): {item}")
+    
+def delete_user(username):
+    print(f"Deleting user now: {username}")
