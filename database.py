@@ -5,4 +5,4 @@ def add_user(username, password):
     
     
 def search_market(item):
-    print(f"Searching for item: {item}")
+    print(f"Searching for item now: {item}")
