@@ -22,9 +22,8 @@ jobs:
       with:
         node-version: '20.18.0' # versi Node.js yang digunakan
 
-    # - name: Install dependencies
-    #   run: npm install
-    #   working-directory: ./02_Node_Example
+    - name: Install dependencies
+      run: npm install
 
     # - name: Run tests
     #   run: npm test
