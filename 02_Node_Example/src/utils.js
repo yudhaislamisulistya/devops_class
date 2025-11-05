@@ -1,4 +1,8 @@
 function tambah(a, b) {
     return a + b;
 }
-module.exports = { tambah };
+
+function kurang(a, b) {
+    return a - b;
+}
+module.exports = { tambah, kurang };
