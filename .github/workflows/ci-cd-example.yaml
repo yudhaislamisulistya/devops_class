@@ -9,15 +9,18 @@ on:
 jobs:
   ci_test:
     runs-on: ubuntu-latest # menggunakan sistem operasi Ubuntu terbaru
-
+    defaults:
+      run:
+        working-directory: ./02_Node_Example
+    
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    # - name: Set up Node.js
-    #   uses: actions/setup-node@v3
-    #   with:
-    #     node-version: '16'
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '20.18.0' # versi Node.js yang digunakan
 
     # - name: Install dependencies
     #   run: npm install
