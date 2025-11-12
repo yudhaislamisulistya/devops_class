@@ -58,7 +58,7 @@ jobs:
             
             if [ -d ".git" ]; then
               echo "Direktori git ditemukan"
-              git pull origin main
+              git pull origin develop
               echo "Berhasil melakukan git pull"
             else
               echo "Direktori git tidak ditemukan"
