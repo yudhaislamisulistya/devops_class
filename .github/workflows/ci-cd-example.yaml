@@ -52,4 +52,7 @@ jobs:
           script: |
             cd ..
             ls
+            cd /home/app_project
+            echo "Berhasil masuk ke direktori tujuan"
+            ls
             
