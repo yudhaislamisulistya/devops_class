@@ -56,3 +56,9 @@ jobs:
             echo "Berhasil masuk ke direktori tujuan"
             ls
             
+            if [ -d ".git" ]; then
+              echo "Direktori git ditemukan"
+              git pull origin main
+            else
+              echo "Direktori git tidak ditemukan"
+            fi
