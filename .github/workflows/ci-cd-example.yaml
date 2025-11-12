@@ -59,6 +59,11 @@ jobs:
             if [ -d ".git" ]; then
               echo "Direktori git ditemukan"
               git pull origin main
+              echo "Berhasil melakukan git pull"
             else
               echo "Direktori git tidak ditemukan"
+              git clone https://github.com/yudhaislamisulistya/devops_class .
+              echo "Berhasil melakukan git clone"
             fi
+
+            ls
